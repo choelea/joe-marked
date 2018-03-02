@@ -1,0 +1,27 @@
+{
+	"name": "joe-marked",
+	"version": "0.4.2",
+	"description": "The 'marked' markdown processor with a simple metadata system.",
+	"main": "./lib/joe-marked.js",
+	"keywords": [
+		"markdown",
+		"metadata",
+		"html"
+	],
+	"author": "Joe <joe.lea@foxmail.com>",
+	"license": "MIT",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/choelea/joe-marked"
+	},
+	"dependencies": {
+		"marked": "~0.3.17",
+		"js-yaml": "~3.10.0"
+	},
+	"devDependencies": {
+		"tape": "~4.2.0"
+	},
+	"scripts": {
+		"test": "node ./test/test"
+	}
+}
