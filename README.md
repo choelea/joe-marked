@@ -1,3 +1,9 @@
+Based on meta-marked, refined to support ZH language better.
+
+> Copied from https://david-dm.org/j201/meta-marked, as it's not updated for years, so create an new one and do customize based on it.
+
+Below are from https://david-dm.org/j201/meta-marked.
+-----
 ## meta-marked
 #### The [marked](http://github.com/chjj/marked) markdown processor for Node.js with support for [YAML](http://yaml.org/) metadata
 
