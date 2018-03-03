@@ -5,7 +5,7 @@ var tape = require('tape');
 tape("meta-marked", function(t) {
 	var basicTestText = "---\nTitle:   My awesome markdown file\nAuthor:  Me\nScripts:\n    - js/doStuff.js\n    - js/doMoreStuff.js\n...\n\n##Header\nRegular text and stuff goes here. \n\n...\n\n---\n";
 	var basicTestMD = "\n\n##Header\nRegular text and stuff goes here. \n\n...\n\n---\n";
-	var basicResult = metaMarked(basicTestText);
+	var basicResult = metaMarked(basicTestText,{toc:true});
 
 	t.ok(basicResult.meta, "result.meta exists");
 	t.ok(basicResult.html, "result.html exists");
