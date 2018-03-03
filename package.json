@@ -15,8 +15,9 @@
 		"url": "https://github.com/choelea/joe-marked"
 	},
 	"dependencies": {
-		"marked": "~0.3.17",
-		"js-yaml": "~3.10.0"
+		"js-yaml": "~3.10.0",
+		"markdown-toc": "^1.2.0",
+		"marked": "~0.3.17"
 	},
 	"devDependencies": {
 		"tape": "~4.2.0"

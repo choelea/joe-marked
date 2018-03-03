@@ -1,4 +1,4 @@
-var metaMarked = require('../lib/meta-marked.js');
+var metaMarked = require('../lib/joe-marked.js');
 var marked = require('marked');
 var tape = require('tape');
 
