@@ -1,6 +1,6 @@
 {
 	"name": "joe-marked",
-	"version": "0.4.4",
+	"version": "0.4.5",
 	"description": "The 'marked' markdown processor with a simple metadata system.",
 	"main": "./lib/joe-marked.js",
 	"keywords": [
@@ -23,6 +23,7 @@
 		"tape": "~4.2.0"
 	},
 	"scripts": {
-		"test": "node ./test/test"
+		"test": "node ./test/test",
+		"test2": "node ./test/test2"		
 	}
 }
