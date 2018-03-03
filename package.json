@@ -1,6 +1,6 @@
 {
 	"name": "joe-marked",
-	"version": "0.4.2",
+	"version": "0.4.3",
 	"description": "The 'marked' markdown processor with a simple metadata system.",
 	"main": "./lib/joe-marked.js",
 	"keywords": [
